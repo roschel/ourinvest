@@ -10,10 +10,20 @@ So, let's get started.
 
 1) **Git clone and run locally**<br>
 Clone the repository git@github.com:roschel/ourinvest.git, access the folder generated and 
-setup the environment variable `export PYTHONPATH=app` and 
-run the following command `uvicorn app.app:app --port 8000`
+setup the environment variable `export PYTHONPATH=app` and run the following command `uvicorn app.app:app --port 8000`
+access the following url in your web browser `http://localhost:8000/docs` and you're supposed to see the swagger page in your web browser.
 
 2) **Docker**<br>
-Run the following command `docker run -d -p 8000:8000 roschel/ourinvest:1.0.1`, access the following
-url `http://localhost:8000/docs` and you're supposed to see the swagger page in your browser.
+Run the following command `docker run -d -p 8000:8000 roschel/ourinvest:1.0.3`, access the following
+url in your web browser `http://localhost:8000/docs` and you're supposed to see the swagger page in your web browser.
+
+The first endpoint `/file` you will be able to select a json file from your pc and send to the api.
+
+The second enpoint `/body` you will be able to send the content of a json file in the request body.
+
+The return of both endpoints will be the content o the json generated and saved inside the file `data/output.json`.
+To check the file out, you need to run the command `docker exec -it {your container id} bash` (if you're running by docker) and then `cat data/output.json`
     
+
+## DDD
+![image](https://github.com/roschel/ourinvest/assets/52433168/7f71c385-fc10-4660-8080-6d04a9efd71a)
