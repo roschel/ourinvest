@@ -14,7 +14,7 @@ setup the environment variable `export PYTHONPATH=app`, create your own virtuale
 access the following url in your web browser `http://localhost:8000/docs` and you're supposed to see the swagger page in your web browser.
 
 2) **Docker**<br>
-Run the following command `docker run -d -p 8000:8000 roschel/ourinvest:1.0.3`, access the following
+Run the following command `docker run -d -p 8000:8000 roschel/ourinvest:1.0.4`, access the following
 url in your web browser `http://localhost:8000/docs` and you're supposed to see the swagger page in your web browser.
 
 The first endpoint `/file` you will be able to select a json file from your pc and send to the api.
@@ -26,4 +26,4 @@ To check the file out, you need to run the command `docker exec -it {your contai
     
 
 ## DDD
-![image](https://github.com/roschel/ourinvest/assets/52433168/7f71c385-fc10-4660-8080-6d04a9efd71a)
+![image](https://github.com/roschel/ourinvest/assets/52433168/4d3203c2-0ac7-4beb-83a1-16ee1fb1c065)
