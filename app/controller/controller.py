@@ -9,7 +9,7 @@ from service.service import PeopleService
 class Controller:
 
     def __init__(self):
-        self.router = APIRouter()
+        self.router = APIRouter(tags=["Operations"])
         self.router.add_api_route(
             path="/file",
             endpoint=self.run_by_file,
