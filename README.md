@@ -26,4 +26,4 @@ To check the file out, you need to run the command `docker exec -it {your contai
     
 
 ## DDD
-![image](https://github.com/roschel/ourinvest/assets/52433168/4d3203c2-0ac7-4beb-83a1-16ee1fb1c065)
+![image](https://github.com/roschel/ourinvest/assets/52433168/3e9539d1-86bd-421d-9aaf-9a836b6b7f57)
